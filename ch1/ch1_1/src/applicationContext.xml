@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       <bean id="test" class="dao.TestDaoImpl" >
+              <property name="msg" value="来自第一个Bean：Hello Study hard."/>
+       </bean>
+       <bean id="test_1" class="dao.TestDaoImpl" >
+               <property name="msg" value="来自第二个Bean：Spring IoC练习:"/>
+       </bean>
+</beans>
